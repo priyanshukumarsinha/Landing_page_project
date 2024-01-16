@@ -1,0 +1,227 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(220, 202, 205);
+}
+
+#nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #000;
+    justify-content: center;
+}
+
+#nav h5{
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1.5px solid #000;
+    padding: 4px 18px;
+    border-radius: 50px;
+    margin: 0 7px;
+    font-weight: 400;
+}
+
+#leftcpright{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    position: absolute;
+    top: 2%;
+    left: 5%;
+}
+
+#rightcpright{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    position: absolute;
+    top: 2%;
+    right: 5%;
+}
+
+#center{
+    height: calc(100% - 100px);
+    width: 100%;
+    position: relative;
+    padding: 10px 20px;
+}
+
+#center h1{ 
+    font-size: 155px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 49.5%;
+    top: 0px;
+    transform: translate(-50%, 0);
+    white-space: nowrap;
+    font-weight: 1000;
+    font-style: italic;
+    z-index: 5;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    color: transparent;
+    letter-spacing: 14px;
+}
+
+#center h2{
+    font-size: 155px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    white-space: nowrap;
+    font-weight: 1000;
+    font-style: italic;
+    z-index: 6;
+    letter-spacing: 14px;
+
+}
+
+#image{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 65%;
+    width: 65%;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+
+#imageBorder{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 50%;
+}
+
+#image img{
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+#exploreBtn{
+    padding: 22px 60px;
+    font-size: 22px;
+    border-radius: 50%;
+    background-color: rgb(188, 197, 169);
+    border: 2px solid #000;
+
+    position: absolute;
+    right: 10%;
+    top: 25%;
+
+    transform: rotate( -7deg);
+
+}
+
+#sizeBtn{
+    padding: 22px 30px;
+    font-size: 22px;
+    border-radius: 50%;
+    background-color: rgb(188, 197, 169);
+    border: 2px solid #000;
+
+    position: absolute;
+    left: 10%;
+    bottom: 12%;
+
+    transform: rotate( 20deg);
+
+}
+
+#socks1{
+    height: 300px;
+    width: 300px;
+
+
+    border: solid 2px #000;
+    position: absolute;
+    top: 25%;
+    left:10%;
+    z-index: 10;
+
+    transform: rotate(5deg);
+    background-color: rgb(241, 223, 226);
+    background-image: url('https://media.happysocks.com/images/PIC01-0200_FLAT.png?width=640&format=pjpg&quality=60&auto=webp');
+    background-size: cover;
+    background-position: bottom;
+}
+
+#socks1::after{
+    content: "";
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    z-index: -1;
+    top: -25px;
+    right: -25px;
+    border: 2px solid #000;
+    background-color: rgb(241, 223, 226);
+    background-image: url('https://media.happysocks.com/images/ICE01-9300.png?width=640&format=pjpg&quality=60&auto=webp');
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+#socks2{
+    height: 300px;
+    width: 300px;
+
+
+    border: solid 2px #000;
+    position: absolute;
+    bottom: 7%;
+    right:15%;
+    z-index: 10;
+    background-color: rgb(241, 223, 226);;
+    transform: rotate(-15deg);
+    background-image: url('https://media.happysocks.com/images/HAM01-6300.png?width=640&format=pjpg&quality=60&auto=webp');
+
+    background-size: cover;
+    background-position: bottom;
+}
+
+#socks2::after{
+    content: "";
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    z-index: -1;
+    top: -25px;
+    right: 25px;
+    border: 2px solid #000;
+    background-color: rgb(241, 223, 226);
+
+    background-image: url('https://media.happysocks.com/images/PLS01-9300_FLAT.png?width=640&format=pjpg&quality=60&auto=webp');
+
+    background-size: cover;
+    background-position: bottom;
+
+}
