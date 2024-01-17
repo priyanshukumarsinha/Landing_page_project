@@ -20,7 +20,13 @@ In Project 3, i made a Basic Website using HTML and CSS. While making this, I le
 
 
 ## Project 4
-In Project 4, I made a Basic Website using HTML and CSS. While making this, I learned to make a beutiful design using borders, and later using something like ::after, I got a better understanding of z-index and position absolute here.
+In Project 4, I made a Basic Website using HTML and CSS. While making this, I learned to make a beutiful design using borders, and later using something like ::after, I got a better understanding of z-index and position absolute here. Later we learned about how to use ::after and ::before with hover and made some basic animations.
 
 
 [Deployed Here](http://priyanshukumarsinha.me/Landing_page_project/Project_4/)
+
+
+## Project 5
+In Project 5, I made a Basic responsive Website using HTMl and CSS. While making thism I learned about media queries and min-height property and how it changes the whole look of website. I got a better understanding of the previously done concepts like flexbox, align-items, etc.
+
+[Deployed Here](http://priyanshukumarsinha.me/Landing_page_project/Project_5/)
