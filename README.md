@@ -32,10 +32,12 @@ In Project 5, I made a Basic responsive Website using HTMl and CSS. While making
 [Deployed Here](http://priyanshukumarsinha.me/Landing_page_project/Project_5/)
 
 ## Project 6
-In Project 6, I made a Website using HTML, CSS and gasp JS. While making this I learned a little about gasp JS and how to animate elements with gasp JS. I made a beutiful website with some micro animations like the button with the hover effect, and that opacity animation while loading the website for the first time. I also added some hover effects on Images so it will move when hovered. I faced several problems while animating, like the third image isn't moving even when i have already given it animation code in JS file.
+In Project 6, I made a Website using HTML, CSS and GSAP JS. While making this I learned a little about GSAP JS and how to animate elements with GSAP JS. I made a beutiful website with some micro animations like the button with the hover effect, and that opacity animation while loading the website for the first time. I also added some hover effects on Images so it will move when hovered. I faced several problems while animating, like the third image isn't moving even when i have already given it animation code in JS file.
 
 [Deployed Here](http://priyanshukumarsinha.me/Landing_page_project/Project_6/)
 
 ## Project 7
+In Project 7, I made a Wesbite using HTML, CSS and GSAP JS, While making this I learned about how to make an image not vary its size wrt width and keep it fixed at one position, i got a better understanding of position property and also learned about how to make an animation repeat with GSAP JS.
+
 
 [Deployed Here](http://priyanshukumarsinha.me/Landing_page_project/Project_7/)
