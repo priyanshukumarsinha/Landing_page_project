@@ -27,6 +27,11 @@ In Project 4, I made a Basic Website using HTML and CSS. While making this, I le
 
 
 ## Project 5
-In Project 5, I made a Basic responsive Website using HTMl and CSS. While making thism I learned about media queries and min-height property and how it changes the whole look of website. I got a better understanding of the previously done concepts like flexbox, align-items, etc.
+In Project 5, I made a Basic responsive Website using HTMl and CSS. While making this I learned about media queries and min-height property and how it changes the whole look of website. I got a better understanding of the previously done concepts like flexbox, align-items, etc.
 
 [Deployed Here](http://priyanshukumarsinha.me/Landing_page_project/Project_5/)
+
+## Project 6
+In Project 6, I made a Website using HTML, CSS and gasp JS. While making this I learned a little about gasp JS and how to animate elements with gasp JS. I made a beutiful website with some micro animations like the button with the hover effect, and that opacity animation while loading the website for the first time. I also added some hover effects on Images so it will move when hovered. I faced several problems while animating, like the third image isn't moving even when i have already given it animation code in JS file.
+
+[Deployed Here](http://priyanshukumarsinha.me/Landing_page_project/Project_6/)
