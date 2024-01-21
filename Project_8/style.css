@@ -1,12 +1,192 @@
-
+@import url('../Fonts/fonts.css');
 
 *{
     border: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: gilroy;
 }
 
 html,body{
     height: 100%;
     width: 100%;
+}
+
+#main{
+    background-color: #F6F6EE;
+    width: 100%;
+    position: relative;
+
+}
+
+#nav{
+    width: 100%;
+    height: 15vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 15vh;
+    align-items: center;
+    padding: 4vw;
+    background-color: #F6F6EE;
+}
+
+#nav #links{
+    display: flex;
+    gap: 50px;
+}
+
+#links a{
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: "PlayFair Display";
+    position: relative;
+}
+
+#links .active{
+    border-bottom: 1px solid black;
+}
+
+#links a:hover{
+    border-bottom: 1px solid black;
+}
+
+#nav h3{
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+#nav h3 span{
+    font-weight: 600;
+}
+
+#heading{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F6F6EE;
+}
+
+#heading p{
+    text-align: center;
+    width: 40%;
+    margin: 30px 0px;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+#heading h1{
+    font-family: "PlayFair Display";
+    font-size: 75px;
+    font-weight: 400;
+    line-height: 70px;
+}
+
+#heading button{
+    background-color: black;
+    color: #ebeaea;
+    font-weight: 1000;
+    font-size: 18px;
+    padding: 12px 32px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#illus{
+    width: 100%;
+}
+
+#illus img{
+    width: 100%;
+}
+
+#details{
+    width: 100%;
+    background-color: #F6F6EE;
+    margin-top: 50px;
+    display: flex;
+    padding: 10vw 5vw;
+    justify-content: space-between;
+}
+
+#details #dleft{
+    width: 48%;
+    border-right: 2px solid black;
+    text-align: right;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#details #dleft h1{
+    font-family: "PlayFair Display";
+    font-size: 50px;
+    font-weight: 400;
+}
+
+#details #dleft p{
+    width: 35%;
+    font-size: 19px;
+    text-align: right;
+    
+}
+
+#details #dright{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#details #dleft #smline{
+    width: 5%;
+    height: 2px;
+    background-color: #000;
+    margin: 20px 0;
+}
+
+#dright #feat{
+    display: flex;
+    gap: 30px;
+}
+
+#feat i{
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 60px;
+    width: 100px;
+    background-color: black;
+}
+
+#dright #feat h3{
+    font-family: "PlayFair Display";
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 10px;
+
+}
+
+#feat p{
+    margin-top: 15px;
+    font-size: 12px;
+    width: 40%;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#illus2{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#illus2 img{
+    width: 25%;
 }
