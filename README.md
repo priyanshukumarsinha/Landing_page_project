@@ -48,3 +48,9 @@ In Project 7, I made a Wesbite using HTML, CSS and GSAP JS, While making this I 
 In Project 8, I made a Website using HTML and CSS. While making this I revised all the topics and got a clear understanding of various topics. I also got to learn about how to download and use fonts in a website.
 
 [Deployed Here](http://priyanshukumarsinha.me/Landing_page_project/Project_8/)
+
+
+## Project 9
+In Project 9, I made a beautiful website using HTML and CSS.
+
+[Deployed Here](http://priyanshukumarsinha.me/Landing_page_project/Project_9/)
